@@ -19,7 +19,6 @@ def getImage():
 	wallPep.save("img_today.jpg")
 	cwd = os.getcwd()
 	imagePath = str(cwd)+'\img_today.jpg'
-	print imagePath
 	return imagePath
 
 
